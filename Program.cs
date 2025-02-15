@@ -12,6 +12,11 @@
 using System;
 using System.Collections.Generic;
 
+class Program
+{
+    static void Main(string[] args)
+    {
+
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("Name?");
         Console.ResetColor();
@@ -68,6 +73,8 @@ using System.Collections.Generic;
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(greeting["evening"]);
             }
+    }
+}
 
 
 
